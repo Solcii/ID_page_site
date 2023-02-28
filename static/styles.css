@@ -7,3 +7,32 @@
     padding: 0;
     font-size: 62.5%;
 }
+
+.main-wrapper{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+.text-panel, .image-panel{
+    width: 40%;
+}
+.text-panel .main-title{
+    font-size: 4rem;
+    font-weight: 800;
+    letter-spacing: .1rem;
+    line-height: 35px;
+}
+.text-panel .subtitle{
+    font-size: 2rem;
+    font-weight: 400;
+}
+.text-panel .description{
+    font-size: 1.6rem;
+    font-weight: 300;
+    margin-top: 4rem;
+}
+.image-panel img{
+    width: 100%;
+}
